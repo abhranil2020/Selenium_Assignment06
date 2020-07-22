@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19824" started-at="2020-07-17T12:47:22Z" finished-at="2020-07-17T12:47:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19824" started-at="2020-07-17T12:47:22Z" finished-at="2020-07-17T12:47:42Z">
+      <class name="assignment.java.Webpagescreenshot">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:assignment.java.Webpagescreenshot@2ff4f00f]" name="setUp" is-config="true" duration-ms="10853" started-at="2020-07-17T18:17:22Z" finished-at="2020-07-17T18:17:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.myntra.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Webelementscreenshot(java.lang.String)[pri:0, instance:assignment.java.Webpagescreenshot@2ff4f00f]" name="Webelementscreenshot" duration-ms="7703" started-at="2020-07-17T18:17:33Z" finished-at="2020-07-17T18:17:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.//Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Webelementscreenshot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:assignment.java.Webpagescreenshot@2ff4f00f]" name="tearDown" is-config="true" duration-ms="1256" started-at="2020-07-17T18:17:40Z" finished-at="2020-07-17T18:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- assignment.java.Webpagescreenshot -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
